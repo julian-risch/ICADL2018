@@ -1,3 +1,16 @@
+## Citation
+
+If you use our work, please cite our paper [**Book Recommendation Beyond the Usual Suspects: Embedding Book Plots Together with Place and Time Information**](https://github.com/julian-risch/ICADL2018/risch2018book.pdf) as follows:
+
+    @inproceedings{risch2018book,
+    author = {Risch, Julian and Garda, Samuele and Krestel, Ralf},
+    booktitle = {Proceedings of the International Conference On Asia-Pacific Digital Libraries (ICADL)},
+    pages = {227-239},
+    title = {Book Recommendation Beyond the Usual Suspects: Embedding Book Plots Together with Place and Time Information},
+    year = {2018}
+    }
+
+
 # doc-embedding
 Python scripts to train doc2vec models. For each step of the pipeline please refer to the correspondent sections in the configuration files in `configs`. To train models you can call:
 
