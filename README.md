@@ -1,6 +1,6 @@
 ## Citation
 
-If you use our work, please cite our paper [**Book Recommendation Beyond the Usual Suspects: Embedding Book Plots Together with Place and Time Information**](https://github.com/julian-risch/ICADL2018/raw/master/risch2018book.pdf) as follows:
+If you use our work, please cite our paper [**Book Recommendation Beyond the Usual Suspects: Embedding Book Plots Together with Place and Time Information**](https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/people/risch/risch2018book.pdf) as follows:
 
     @inproceedings{risch2018book,
     author = {Risch, Julian and Garda, Samuele and Krestel, Ralf},
