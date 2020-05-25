@@ -120,15 +120,11 @@ Finally you can specify to create files for just a specific number of documents.
 Since all tasks are python scripts simply running the main utilities, they will be called as python modules. Thus you can use them this way:
 
     $ python -m tasks.<script name> 
-
-### Newspaper detection
-
-This is for the task of predicting from the document embeddings to newspaper who wrote the document. Pleae use
-
-    $ python -m tasks.accuracy_newspapers.py -c ./configs/test_newspapers.config
-
-This will load the defined test set. Then vectors for the test set are inferred (10) a majority vote is taken to make the predictions. Then the `TPR` (# correct preditions / length of test set) per newspaper of each model is printed.
-
+    
+## Datasets
+We created a dataset of movie summaries based on Wikipedia pages and uploaded it here: https://hpi.de/fileadmin/user_upload/fachgebiete/naumann/etc/movie_dataset.zip
+It contains 6456 movies from the years 2000 to 2016. Each movie is described with about 1300 words.
+The second dataset used in our paper (book summaries) can be found here: http://www.cs.cmu.edu/~dbamman/booksummaries.html
 
 ## REFERENCES
 
